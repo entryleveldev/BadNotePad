@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/user_settings">
+        <EditTextPreference android:title="Max Dispaly Length" 
+        android:key="max_length" 
+        android:summary="Maximun lenght of body data to be dislayed" 
+        android:defaultValue="30"
+        android:numeric="integer"></EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
